@@ -1,0 +1,5017 @@
+{
+  "source_repository": "liberusoftware/project-accounting-erp-laravel-filament",
+  "source_revision": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e",
+  "retained": [
+    {
+      "path": "modules/accounting-account-reconciliations",
+      "package": "liberusoftware/module-accounting-account-reconciliations",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-account-reconciliations-api",
+      "package": "liberusoftware/module-accounting-account-reconciliations-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-accountant-workspace",
+      "package": "liberusoftware/module-accounting-accountant-workspace",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-accountant-workspace-api",
+      "package": "liberusoftware/module-accounting-accountant-workspace-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-accounts-payable",
+      "package": "liberusoftware/module-accounting-accounts-payable",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-accounts-payable-api",
+      "package": "liberusoftware/module-accounting-accounts-payable-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-accounts-receivable",
+      "package": "liberusoftware/module-accounting-accounts-receivable",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-accounts-receivable-api",
+      "package": "liberusoftware/module-accounting-accounts-receivable-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-anomaly-detection",
+      "package": "liberusoftware/module-accounting-anomaly-detection",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-anomaly-detection-api",
+      "package": "liberusoftware/module-accounting-anomaly-detection-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-asset-events",
+      "package": "liberusoftware/module-accounting-asset-events",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-asset-events-api",
+      "package": "liberusoftware/module-accounting-asset-events-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-audit-support",
+      "package": "liberusoftware/module-accounting-audit-support",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-audit-support-api",
+      "package": "liberusoftware/module-accounting-audit-support-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-automation-pack",
+      "package": "liberusoftware/module-accounting-automation-pack",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-automation-pack-api",
+      "package": "liberusoftware/module-accounting-automation-pack-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-bank-accounts",
+      "package": "liberusoftware/module-accounting-bank-accounts",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-bank-accounts-api",
+      "package": "liberusoftware/module-accounting-bank-accounts-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-bank-feeds",
+      "package": "liberusoftware/module-accounting-bank-feeds",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-bank-feeds-api",
+      "package": "liberusoftware/module-accounting-bank-feeds-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-bank-reconciliation",
+      "package": "liberusoftware/module-accounting-bank-reconciliation",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-bank-reconciliation-api",
+      "package": "liberusoftware/module-accounting-bank-reconciliation-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-bank-rules",
+      "package": "liberusoftware/module-accounting-bank-rules",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-bank-rules-api",
+      "package": "liberusoftware/module-accounting-bank-rules-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-bill-payments",
+      "package": "liberusoftware/module-accounting-bill-payments",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-bill-payments-api",
+      "package": "liberusoftware/module-accounting-bill-payments-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-branch-and-location-accounting",
+      "package": "liberusoftware/module-accounting-branch-and-location-accounting",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-branch-and-location-accounting-api",
+      "package": "liberusoftware/module-accounting-branch-and-location-accounting-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-budgets",
+      "package": "liberusoftware/module-accounting-budgets",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-budgets-api",
+      "package": "liberusoftware/module-accounting-budgets-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-business-insights",
+      "package": "liberusoftware/module-accounting-business-insights",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-business-insights-api",
+      "package": "liberusoftware/module-accounting-business-insights-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-carbon-accounting",
+      "package": "liberusoftware/module-accounting-carbon-accounting",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-carbon-accounting-api",
+      "package": "liberusoftware/module-accounting-carbon-accounting-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-cash-coding",
+      "package": "liberusoftware/module-accounting-cash-coding",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-cash-coding-api",
+      "package": "liberusoftware/module-accounting-cash-coding-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-cash-collection-assistant",
+      "package": "liberusoftware/module-accounting-cash-collection-assistant",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-cash-collection-assistant-api",
+      "package": "liberusoftware/module-accounting-cash-collection-assistant-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-cash-flow-forecasting",
+      "package": "liberusoftware/module-accounting-cash-flow-forecasting",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-cash-flow-forecasting-api",
+      "package": "liberusoftware/module-accounting-cash-flow-forecasting-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-cash-position",
+      "package": "liberusoftware/module-accounting-cash-position",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-cash-position-api",
+      "package": "liberusoftware/module-accounting-cash-position-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-chart-of-accounts",
+      "package": "liberusoftware/module-accounting-chart-of-accounts",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-chart-of-accounts-api",
+      "package": "liberusoftware/module-accounting-chart-of-accounts-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-client-collaboration",
+      "package": "liberusoftware/module-accounting-client-collaboration",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-client-collaboration-api",
+      "package": "liberusoftware/module-accounting-client-collaboration-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-close-management",
+      "package": "liberusoftware/module-accounting-close-management",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-close-management-api",
+      "package": "liberusoftware/module-accounting-close-management-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-coding-suggestions",
+      "package": "liberusoftware/module-accounting-coding-suggestions",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-coding-suggestions-api",
+      "package": "liberusoftware/module-accounting-coding-suggestions-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-collections",
+      "package": "liberusoftware/module-accounting-collections",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-collections-api",
+      "package": "liberusoftware/module-accounting-collections-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-consolidation",
+      "package": "liberusoftware/module-accounting-consolidation",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-consolidation-api",
+      "package": "liberusoftware/module-accounting-consolidation-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-construction-tax",
+      "package": "liberusoftware/module-accounting-construction-tax",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-construction-tax-api",
+      "package": "liberusoftware/module-accounting-construction-tax-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-contractor-compliance",
+      "package": "liberusoftware/module-accounting-contractor-compliance",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-contractor-compliance-api",
+      "package": "liberusoftware/module-accounting-contractor-compliance-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-contractor-reporting",
+      "package": "liberusoftware/module-accounting-contractor-reporting",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-contractor-reporting-api",
+      "package": "liberusoftware/module-accounting-contractor-reporting-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-copilot",
+      "package": "liberusoftware/module-accounting-copilot",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-copilot-api",
+      "package": "liberusoftware/module-accounting-copilot-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-core",
+      "package": "liberusoftware/module-accounting-core",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-core-api",
+      "package": "liberusoftware/module-accounting-core-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-corporate-cards",
+      "package": "liberusoftware/module-accounting-corporate-cards",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-corporate-cards-api",
+      "package": "liberusoftware/module-accounting-corporate-cards-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-credit-notes-and-adjustments",
+      "package": "liberusoftware/module-accounting-credit-notes-and-adjustments",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-credit-notes-and-adjustments-api",
+      "package": "liberusoftware/module-accounting-credit-notes-and-adjustments-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-custom-report-builder",
+      "package": "liberusoftware/module-accounting-custom-report-builder",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-custom-report-builder-api",
+      "package": "liberusoftware/module-accounting-custom-report-builder-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-customer-payments",
+      "package": "liberusoftware/module-accounting-customer-payments",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-customer-payments-api",
+      "package": "liberusoftware/module-accounting-customer-payments-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-customer-portal",
+      "package": "liberusoftware/module-accounting-customer-portal",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-customer-portal-api",
+      "package": "liberusoftware/module-accounting-customer-portal-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-dashboards",
+      "package": "liberusoftware/module-accounting-dashboards",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-dashboards-api",
+      "package": "liberusoftware/module-accounting-dashboards-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-debt-and-loans",
+      "package": "liberusoftware/module-accounting-debt-and-loans",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-debt-and-loans-api",
+      "package": "liberusoftware/module-accounting-debt-and-loans-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-deposits-and-clearing",
+      "package": "liberusoftware/module-accounting-deposits-and-clearing",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-deposits-and-clearing-api",
+      "package": "liberusoftware/module-accounting-deposits-and-clearing-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-depreciation",
+      "package": "liberusoftware/module-accounting-depreciation",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-depreciation-api",
+      "package": "liberusoftware/module-accounting-depreciation-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-dimensions-and-tracking",
+      "package": "liberusoftware/module-accounting-dimensions-and-tracking",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-dimensions-and-tracking-api",
+      "package": "liberusoftware/module-accounting-dimensions-and-tracking-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-document-capture",
+      "package": "liberusoftware/module-accounting-document-capture",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-document-capture-api",
+      "package": "liberusoftware/module-accounting-document-capture-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-e-invoicing",
+      "package": "liberusoftware/module-accounting-e-invoicing",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-e-invoicing-api",
+      "package": "liberusoftware/module-accounting-e-invoicing-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-employee-expenses",
+      "package": "liberusoftware/module-accounting-employee-expenses",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-employee-expenses-api",
+      "package": "liberusoftware/module-accounting-employee-expenses-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-erp",
+      "package": "liberusoftware/module-accounting-erp",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-estimates-and-quotes",
+      "package": "liberusoftware/module-accounting-estimates-and-quotes",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-estimates-and-quotes-api",
+      "package": "liberusoftware/module-accounting-estimates-and-quotes-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-financial-master-data",
+      "package": "liberusoftware/module-accounting-financial-master-data",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-financial-master-data-api",
+      "package": "liberusoftware/module-accounting-financial-master-data-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-financial-statements",
+      "package": "liberusoftware/module-accounting-financial-statements",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-financial-statements-api",
+      "package": "liberusoftware/module-accounting-financial-statements-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-fixed-assets",
+      "package": "liberusoftware/module-accounting-fixed-assets",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-fixed-assets-api",
+      "package": "liberusoftware/module-accounting-fixed-assets-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-forecasts",
+      "package": "liberusoftware/module-accounting-forecasts",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-forecasts-api",
+      "package": "liberusoftware/module-accounting-forecasts-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-general-ledger",
+      "package": "liberusoftware/module-accounting-general-ledger",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-general-ledger-api",
+      "package": "liberusoftware/module-accounting-general-ledger-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-goods-and-service-receipts",
+      "package": "liberusoftware/module-accounting-goods-and-service-receipts",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-goods-and-service-receipts-api",
+      "package": "liberusoftware/module-accounting-goods-and-service-receipts-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-intercompany",
+      "package": "liberusoftware/module-accounting-intercompany",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-intercompany-api",
+      "package": "liberusoftware/module-accounting-intercompany-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-inventory-accounting",
+      "package": "liberusoftware/module-accounting-inventory-accounting",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-inventory-accounting-api",
+      "package": "liberusoftware/module-accounting-inventory-accounting-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-job-estimates",
+      "package": "liberusoftware/module-accounting-job-estimates",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-job-estimates-api",
+      "package": "liberusoftware/module-accounting-job-estimates-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-journal-approvals",
+      "package": "liberusoftware/module-accounting-journal-approvals",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-journal-approvals-api",
+      "package": "liberusoftware/module-accounting-journal-approvals-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-kpi-and-goals",
+      "package": "liberusoftware/module-accounting-kpi-and-goals",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-kpi-and-goals-api",
+      "package": "liberusoftware/module-accounting-kpi-and-goals-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-leases",
+      "package": "liberusoftware/module-accounting-leases",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-leases-api",
+      "package": "liberusoftware/module-accounting-leases-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-management-reporting",
+      "package": "liberusoftware/module-accounting-management-reporting",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-management-reporting-api",
+      "package": "liberusoftware/module-accounting-management-reporting-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-matching-intelligence",
+      "package": "liberusoftware/module-accounting-matching-intelligence",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-matching-intelligence-api",
+      "package": "liberusoftware/module-accounting-matching-intelligence-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-migration-framework",
+      "package": "liberusoftware/module-accounting-migration-framework",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-migration-framework-api",
+      "package": "liberusoftware/module-accounting-migration-framework-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-mileage",
+      "package": "liberusoftware/module-accounting-mileage",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-mileage-api",
+      "package": "liberusoftware/module-accounting-mileage-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-multi-currency",
+      "package": "liberusoftware/module-accounting-multi-currency",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-multi-currency-api",
+      "package": "liberusoftware/module-accounting-multi-currency-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-multi-entity",
+      "package": "liberusoftware/module-accounting-multi-entity",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-multi-entity-api",
+      "package": "liberusoftware/module-accounting-multi-entity-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-opening-balances",
+      "package": "liberusoftware/module-accounting-opening-balances",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-opening-balances-api",
+      "package": "liberusoftware/module-accounting-opening-balances-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-operational-reports",
+      "package": "liberusoftware/module-accounting-operational-reports",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-operational-reports-api",
+      "package": "liberusoftware/module-accounting-operational-reports-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-payment-reconciliation",
+      "package": "liberusoftware/module-accounting-payment-reconciliation",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-payment-reconciliation-api",
+      "package": "liberusoftware/module-accounting-payment-reconciliation-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-payroll-integration",
+      "package": "liberusoftware/module-accounting-payroll-integration",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-payroll-integration-api",
+      "package": "liberusoftware/module-accounting-payroll-integration-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-payroll-journals",
+      "package": "liberusoftware/module-accounting-payroll-journals",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-payroll-journals-api",
+      "package": "liberusoftware/module-accounting-payroll-journals-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-payroll-liabilities",
+      "package": "liberusoftware/module-accounting-payroll-liabilities",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-payroll-liabilities-api",
+      "package": "liberusoftware/module-accounting-payroll-liabilities-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-payroll-payments",
+      "package": "liberusoftware/module-accounting-payroll-payments",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-payroll-payments-api",
+      "package": "liberusoftware/module-accounting-payroll-payments-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-periods",
+      "package": "liberusoftware/module-accounting-periods",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-periods-api",
+      "package": "liberusoftware/module-accounting-periods-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-plaid",
+      "package": "liberusoftware/module-accounting-plaid",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-policies",
+      "package": "liberusoftware/module-accounting-policies",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-policies-api",
+      "package": "liberusoftware/module-accounting-policies-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-product-and-service-items",
+      "package": "liberusoftware/module-accounting-product-and-service-items",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-product-and-service-items-api",
+      "package": "liberusoftware/module-accounting-product-and-service-items-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-project-billing",
+      "package": "liberusoftware/module-accounting-project-billing",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-project-billing-api",
+      "package": "liberusoftware/module-accounting-project-billing-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-project-costing",
+      "package": "liberusoftware/module-accounting-project-costing",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-project-costing-api",
+      "package": "liberusoftware/module-accounting-project-costing-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-project-profitability",
+      "package": "liberusoftware/module-accounting-project-profitability",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-project-profitability-api",
+      "package": "liberusoftware/module-accounting-project-profitability-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-projects-and-jobs",
+      "package": "liberusoftware/module-accounting-projects-and-jobs",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-projects-and-jobs-api",
+      "package": "liberusoftware/module-accounting-projects-and-jobs-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-purchase-orders",
+      "package": "liberusoftware/module-accounting-purchase-orders",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-purchase-orders-api",
+      "package": "liberusoftware/module-accounting-purchase-orders-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-purchase-requisitions",
+      "package": "liberusoftware/module-accounting-purchase-requisitions",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-purchase-requisitions-api",
+      "package": "liberusoftware/module-accounting-purchase-requisitions-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-quickbooks-online-migration",
+      "package": "liberusoftware/module-accounting-quickbooks-online-migration",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-quickbooks-online-migration-api",
+      "package": "liberusoftware/module-accounting-quickbooks-online-migration-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-receipt-management",
+      "package": "liberusoftware/module-accounting-receipt-management",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-receipt-management-api",
+      "package": "liberusoftware/module-accounting-receipt-management-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-recurring-transactions",
+      "package": "liberusoftware/module-accounting-recurring-transactions",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-recurring-transactions-api",
+      "package": "liberusoftware/module-accounting-recurring-transactions-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-regional-packs",
+      "package": "liberusoftware/module-accounting-regional-packs",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-regional-packs-api",
+      "package": "liberusoftware/module-accounting-regional-packs-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-reimbursements",
+      "package": "liberusoftware/module-accounting-reimbursements",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-reimbursements-api",
+      "package": "liberusoftware/module-accounting-reimbursements-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-revenue-recognition",
+      "package": "liberusoftware/module-accounting-revenue-recognition",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-revenue-recognition-api",
+      "package": "liberusoftware/module-accounting-revenue-recognition-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-review",
+      "package": "liberusoftware/module-accounting-review",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-review-api",
+      "package": "liberusoftware/module-accounting-review-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-revolut",
+      "package": "liberusoftware/module-accounting-revolut",
+      "version": "1.0.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-sage-accounting-migration",
+      "package": "liberusoftware/module-accounting-sage-accounting-migration",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-sage-accounting-migration-api",
+      "package": "liberusoftware/module-accounting-sage-accounting-migration-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-sales-invoicing",
+      "package": "liberusoftware/module-accounting-sales-invoicing",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-sales-invoicing-api",
+      "package": "liberusoftware/module-accounting-sales-invoicing-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-sales-orders",
+      "package": "liberusoftware/module-accounting-sales-orders",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-sales-orders-api",
+      "package": "liberusoftware/module-accounting-sales-orders-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-sales-tax-and-gst",
+      "package": "liberusoftware/module-accounting-sales-tax-and-gst",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-sales-tax-and-gst-api",
+      "package": "liberusoftware/module-accounting-sales-tax-and-gst-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-spreadsheet-migration",
+      "package": "liberusoftware/module-accounting-spreadsheet-migration",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-spreadsheet-migration-api",
+      "package": "liberusoftware/module-accounting-spreadsheet-migration-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-supplier-bills",
+      "package": "liberusoftware/module-accounting-supplier-bills",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-supplier-bills-api",
+      "package": "liberusoftware/module-accounting-supplier-bills-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-supplier-portal",
+      "package": "liberusoftware/module-accounting-supplier-portal",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-supplier-portal-api",
+      "package": "liberusoftware/module-accounting-supplier-portal-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-tax-core",
+      "package": "liberusoftware/module-accounting-tax-core",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-tax-core-api",
+      "package": "liberusoftware/module-accounting-tax-core-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-tax-returns",
+      "package": "liberusoftware/module-accounting-tax-returns",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-tax-returns-api",
+      "package": "liberusoftware/module-accounting-tax-returns-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-three-way-matching",
+      "package": "liberusoftware/module-accounting-three-way-matching",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-three-way-matching-api",
+      "package": "liberusoftware/module-accounting-three-way-matching-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-time-tracking",
+      "package": "liberusoftware/module-accounting-time-tracking",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-time-tracking-api",
+      "package": "liberusoftware/module-accounting-time-tracking-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-transfers",
+      "package": "liberusoftware/module-accounting-transfers",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-transfers-api",
+      "package": "liberusoftware/module-accounting-transfers-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-vat",
+      "package": "liberusoftware/module-accounting-vat",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-vat-api",
+      "package": "liberusoftware/module-accounting-vat-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-wise",
+      "package": "liberusoftware/module-accounting-wise",
+      "version": "1.0.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-withholding-tax",
+      "package": "liberusoftware/module-accounting-withholding-tax",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-withholding-tax-api",
+      "package": "liberusoftware/module-accounting-withholding-tax-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-workforce-costing",
+      "package": "liberusoftware/module-accounting-workforce-costing",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-workforce-costing-api",
+      "package": "liberusoftware/module-accounting-workforce-costing-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-workpapers",
+      "package": "liberusoftware/module-accounting-workpapers",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-workpapers-api",
+      "package": "liberusoftware/module-accounting-workpapers-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-xero-migration",
+      "package": "liberusoftware/module-accounting-xero-migration",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-xero-migration-api",
+      "package": "liberusoftware/module-accounting-xero-migration-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-year-end",
+      "package": "liberusoftware/module-accounting-year-end",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/accounting-year-end-api",
+      "package": "liberusoftware/module-accounting-year-end-api",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/activity-comments",
+      "package": "liberusoftware/activity-comments",
+      "version": "1.4.2",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/analytics-core",
+      "package": "liberusoftware/analytics-core",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/analytics-google",
+      "package": "liberusoftware/analytics-google",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/analytics-meta",
+      "package": "liberusoftware/analytics-meta",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/api-access",
+      "package": "liberusoftware/api-access",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/application",
+      "package": "liberusoftware/application",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/audit",
+      "package": "liberusoftware/audit",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/currency-context",
+      "package": "liberusoftware/currency-context",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/developer-experience",
+      "package": "liberusoftware/developer-experience",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/feature-flags",
+      "package": "liberusoftware/feature-flags",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/files-media",
+      "package": "liberusoftware/files-media",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/identity-core",
+      "package": "liberusoftware/identity-core",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/identity-socialstream",
+      "package": "liberusoftware/identity-socialstream",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/import-export",
+      "package": "liberusoftware/import-export",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/integrations",
+      "package": "liberusoftware/integrations",
+      "version": "1.7.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/jetstream-bridge",
+      "package": "liberusoftware/jetstream-bridge",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/liberu-business-workflow-reconciliation",
+      "package": "liberusoftware/module-liberu-business-workflow-reconciliation",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/liberu-executive-insights",
+      "package": "liberusoftware/module-liberu-executive-insights",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/liberu-platform-orchestration",
+      "package": "liberusoftware/module-liberu-platform-orchestration",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/localization-core",
+      "package": "liberusoftware/localization-core",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/localization-mymemory",
+      "package": "liberusoftware/localization-mymemory",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/notifications",
+      "package": "liberusoftware/notifications",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/observability",
+      "package": "liberusoftware/observability",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/organizations-teams",
+      "package": "liberusoftware/organizations-teams",
+      "version": "1.5.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/profiles",
+      "package": "liberusoftware/profiles",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/roles-permissions",
+      "package": "liberusoftware/roles-permissions",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/scheduler-queues",
+      "package": "liberusoftware/scheduler-queues",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/search",
+      "package": "liberusoftware/search",
+      "version": "1.5.3",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/search-api",
+      "package": "liberusoftware/search-api",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/sessions-devices",
+      "package": "liberusoftware/sessions-devices",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/settings",
+      "package": "liberusoftware/settings",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/tenancy",
+      "package": "liberusoftware/tenancy",
+      "version": "1.2.2",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/two-factor-authentication",
+      "package": "liberusoftware/two-factor-authentication",
+      "version": "1.4.1",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/users-roles",
+      "package": "liberusoftware/users-roles",
+      "version": "1.0.0",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    },
+    {
+      "path": "modules/webhooks",
+      "package": "liberusoftware/webhooks",
+      "version": "1.4.2",
+      "source_sha": "f0ad556a48efbcf7d74d238d6738e7833aacbb4e"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "modules/accounting-account-reconciliations-filament",
+      "package": "liberusoftware/module-accounting-account-reconciliations-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-account-reconciliations-livewire",
+      "package": "liberusoftware/module-accounting-account-reconciliations-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-accountant-workspace-filament",
+      "package": "liberusoftware/module-accounting-accountant-workspace-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-accountant-workspace-livewire",
+      "package": "liberusoftware/module-accounting-accountant-workspace-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-accounts-payable-filament",
+      "package": "liberusoftware/module-accounting-accounts-payable-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-accounts-payable-livewire",
+      "package": "liberusoftware/module-accounting-accounts-payable-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-accounts-receivable-filament",
+      "package": "liberusoftware/module-accounting-accounts-receivable-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-accounts-receivable-livewire",
+      "package": "liberusoftware/module-accounting-accounts-receivable-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-anomaly-detection-filament",
+      "package": "liberusoftware/module-accounting-anomaly-detection-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-anomaly-detection-livewire",
+      "package": "liberusoftware/module-accounting-anomaly-detection-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-asset-events-filament",
+      "package": "liberusoftware/module-accounting-asset-events-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-asset-events-livewire",
+      "package": "liberusoftware/module-accounting-asset-events-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-audit-support-filament",
+      "package": "liberusoftware/module-accounting-audit-support-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-audit-support-livewire",
+      "package": "liberusoftware/module-accounting-audit-support-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-automation-pack-filament",
+      "package": "liberusoftware/module-accounting-automation-pack-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-automation-pack-livewire",
+      "package": "liberusoftware/module-accounting-automation-pack-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-bank-accounts-filament",
+      "package": "liberusoftware/module-accounting-bank-accounts-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-bank-accounts-livewire",
+      "package": "liberusoftware/module-accounting-bank-accounts-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-bank-feeds-filament",
+      "package": "liberusoftware/module-accounting-bank-feeds-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-bank-feeds-livewire",
+      "package": "liberusoftware/module-accounting-bank-feeds-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-bank-reconciliation-filament",
+      "package": "liberusoftware/module-accounting-bank-reconciliation-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-bank-reconciliation-livewire",
+      "package": "liberusoftware/module-accounting-bank-reconciliation-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-bank-rules-filament",
+      "package": "liberusoftware/module-accounting-bank-rules-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-bank-rules-livewire",
+      "package": "liberusoftware/module-accounting-bank-rules-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-bill-payments-filament",
+      "package": "liberusoftware/module-accounting-bill-payments-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-bill-payments-livewire",
+      "package": "liberusoftware/module-accounting-bill-payments-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-branch-and-location-accounting-filament",
+      "package": "liberusoftware/module-accounting-branch-and-location-accounting-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-branch-and-location-accounting-livewire",
+      "package": "liberusoftware/module-accounting-branch-and-location-accounting-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-budgets-filament",
+      "package": "liberusoftware/module-accounting-budgets-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-budgets-livewire",
+      "package": "liberusoftware/module-accounting-budgets-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-business-insights-filament",
+      "package": "liberusoftware/module-accounting-business-insights-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-business-insights-livewire",
+      "package": "liberusoftware/module-accounting-business-insights-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-carbon-accounting-filament",
+      "package": "liberusoftware/module-accounting-carbon-accounting-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-carbon-accounting-livewire",
+      "package": "liberusoftware/module-accounting-carbon-accounting-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-cash-coding-filament",
+      "package": "liberusoftware/module-accounting-cash-coding-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-cash-coding-livewire",
+      "package": "liberusoftware/module-accounting-cash-coding-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-cash-collection-assistant-filament",
+      "package": "liberusoftware/module-accounting-cash-collection-assistant-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-cash-collection-assistant-livewire",
+      "package": "liberusoftware/module-accounting-cash-collection-assistant-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-cash-flow-forecasting-filament",
+      "package": "liberusoftware/module-accounting-cash-flow-forecasting-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-cash-flow-forecasting-livewire",
+      "package": "liberusoftware/module-accounting-cash-flow-forecasting-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-cash-position-filament",
+      "package": "liberusoftware/module-accounting-cash-position-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-cash-position-livewire",
+      "package": "liberusoftware/module-accounting-cash-position-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-chart-of-accounts-filament",
+      "package": "liberusoftware/module-accounting-chart-of-accounts-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-chart-of-accounts-livewire",
+      "package": "liberusoftware/module-accounting-chart-of-accounts-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-client-collaboration-filament",
+      "package": "liberusoftware/module-accounting-client-collaboration-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-client-collaboration-livewire",
+      "package": "liberusoftware/module-accounting-client-collaboration-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-close-management-filament",
+      "package": "liberusoftware/module-accounting-close-management-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-close-management-livewire",
+      "package": "liberusoftware/module-accounting-close-management-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-coding-suggestions-filament",
+      "package": "liberusoftware/module-accounting-coding-suggestions-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-coding-suggestions-livewire",
+      "package": "liberusoftware/module-accounting-coding-suggestions-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-collections-filament",
+      "package": "liberusoftware/module-accounting-collections-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-collections-livewire",
+      "package": "liberusoftware/module-accounting-collections-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-consolidation-filament",
+      "package": "liberusoftware/module-accounting-consolidation-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-consolidation-livewire",
+      "package": "liberusoftware/module-accounting-consolidation-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-construction-tax-filament",
+      "package": "liberusoftware/module-accounting-construction-tax-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-construction-tax-livewire",
+      "package": "liberusoftware/module-accounting-construction-tax-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-contractor-compliance-filament",
+      "package": "liberusoftware/module-accounting-contractor-compliance-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-contractor-compliance-livewire",
+      "package": "liberusoftware/module-accounting-contractor-compliance-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-contractor-reporting-filament",
+      "package": "liberusoftware/module-accounting-contractor-reporting-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-contractor-reporting-livewire",
+      "package": "liberusoftware/module-accounting-contractor-reporting-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-copilot-filament",
+      "package": "liberusoftware/module-accounting-copilot-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-copilot-livewire",
+      "package": "liberusoftware/module-accounting-copilot-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-core-filament",
+      "package": "liberusoftware/module-accounting-core-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-core-livewire",
+      "package": "liberusoftware/module-accounting-core-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-corporate-cards-filament",
+      "package": "liberusoftware/module-accounting-corporate-cards-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-corporate-cards-livewire",
+      "package": "liberusoftware/module-accounting-corporate-cards-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-credit-notes-and-adjustments-filament",
+      "package": "liberusoftware/module-accounting-credit-notes-and-adjustments-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-credit-notes-and-adjustments-livewire",
+      "package": "liberusoftware/module-accounting-credit-notes-and-adjustments-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-custom-report-builder-filament",
+      "package": "liberusoftware/module-accounting-custom-report-builder-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-custom-report-builder-livewire",
+      "package": "liberusoftware/module-accounting-custom-report-builder-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-customer-payments-filament",
+      "package": "liberusoftware/module-accounting-customer-payments-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-customer-payments-livewire",
+      "package": "liberusoftware/module-accounting-customer-payments-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-customer-portal-filament",
+      "package": "liberusoftware/module-accounting-customer-portal-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-customer-portal-livewire",
+      "package": "liberusoftware/module-accounting-customer-portal-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-dashboards-filament",
+      "package": "liberusoftware/module-accounting-dashboards-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-dashboards-livewire",
+      "package": "liberusoftware/module-accounting-dashboards-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-debt-and-loans-filament",
+      "package": "liberusoftware/module-accounting-debt-and-loans-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-debt-and-loans-livewire",
+      "package": "liberusoftware/module-accounting-debt-and-loans-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-deposits-and-clearing-filament",
+      "package": "liberusoftware/module-accounting-deposits-and-clearing-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-deposits-and-clearing-livewire",
+      "package": "liberusoftware/module-accounting-deposits-and-clearing-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-depreciation-filament",
+      "package": "liberusoftware/module-accounting-depreciation-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-depreciation-livewire",
+      "package": "liberusoftware/module-accounting-depreciation-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-dimensions-and-tracking-filament",
+      "package": "liberusoftware/module-accounting-dimensions-and-tracking-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-dimensions-and-tracking-livewire",
+      "package": "liberusoftware/module-accounting-dimensions-and-tracking-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-document-capture-filament",
+      "package": "liberusoftware/module-accounting-document-capture-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-document-capture-livewire",
+      "package": "liberusoftware/module-accounting-document-capture-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-e-invoicing-filament",
+      "package": "liberusoftware/module-accounting-e-invoicing-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-e-invoicing-livewire",
+      "package": "liberusoftware/module-accounting-e-invoicing-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-employee-expenses-filament",
+      "package": "liberusoftware/module-accounting-employee-expenses-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-employee-expenses-livewire",
+      "package": "liberusoftware/module-accounting-employee-expenses-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-erp-filament",
+      "package": "liberusoftware/module-accounting-erp-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-erp-http",
+      "package": "liberusoftware/module-accounting-erp-http",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-estimates-and-quotes-filament",
+      "package": "liberusoftware/module-accounting-estimates-and-quotes-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-estimates-and-quotes-livewire",
+      "package": "liberusoftware/module-accounting-estimates-and-quotes-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-financial-master-data-filament",
+      "package": "liberusoftware/module-accounting-financial-master-data-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-financial-master-data-livewire",
+      "package": "liberusoftware/module-accounting-financial-master-data-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-financial-statements-filament",
+      "package": "liberusoftware/module-accounting-financial-statements-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-financial-statements-livewire",
+      "package": "liberusoftware/module-accounting-financial-statements-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-fixed-assets-filament",
+      "package": "liberusoftware/module-accounting-fixed-assets-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-fixed-assets-livewire",
+      "package": "liberusoftware/module-accounting-fixed-assets-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-forecasts-filament",
+      "package": "liberusoftware/module-accounting-forecasts-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-forecasts-livewire",
+      "package": "liberusoftware/module-accounting-forecasts-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-general-ledger-filament",
+      "package": "liberusoftware/module-accounting-general-ledger-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-general-ledger-livewire",
+      "package": "liberusoftware/module-accounting-general-ledger-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-goods-and-service-receipts-filament",
+      "package": "liberusoftware/module-accounting-goods-and-service-receipts-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-goods-and-service-receipts-livewire",
+      "package": "liberusoftware/module-accounting-goods-and-service-receipts-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-intercompany-filament",
+      "package": "liberusoftware/module-accounting-intercompany-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-intercompany-livewire",
+      "package": "liberusoftware/module-accounting-intercompany-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-inventory-accounting-filament",
+      "package": "liberusoftware/module-accounting-inventory-accounting-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-inventory-accounting-livewire",
+      "package": "liberusoftware/module-accounting-inventory-accounting-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-job-estimates-filament",
+      "package": "liberusoftware/module-accounting-job-estimates-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-job-estimates-livewire",
+      "package": "liberusoftware/module-accounting-job-estimates-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-journal-approvals-filament",
+      "package": "liberusoftware/module-accounting-journal-approvals-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-journal-approvals-livewire",
+      "package": "liberusoftware/module-accounting-journal-approvals-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-kpi-and-goals-filament",
+      "package": "liberusoftware/module-accounting-kpi-and-goals-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-kpi-and-goals-livewire",
+      "package": "liberusoftware/module-accounting-kpi-and-goals-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-leases-filament",
+      "package": "liberusoftware/module-accounting-leases-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-leases-livewire",
+      "package": "liberusoftware/module-accounting-leases-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-management-reporting-filament",
+      "package": "liberusoftware/module-accounting-management-reporting-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-management-reporting-livewire",
+      "package": "liberusoftware/module-accounting-management-reporting-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-matching-intelligence-filament",
+      "package": "liberusoftware/module-accounting-matching-intelligence-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-matching-intelligence-livewire",
+      "package": "liberusoftware/module-accounting-matching-intelligence-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-migration-framework-filament",
+      "package": "liberusoftware/module-accounting-migration-framework-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-migration-framework-livewire",
+      "package": "liberusoftware/module-accounting-migration-framework-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-mileage-filament",
+      "package": "liberusoftware/module-accounting-mileage-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-mileage-livewire",
+      "package": "liberusoftware/module-accounting-mileage-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-multi-currency-filament",
+      "package": "liberusoftware/module-accounting-multi-currency-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-multi-currency-livewire",
+      "package": "liberusoftware/module-accounting-multi-currency-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-multi-entity-filament",
+      "package": "liberusoftware/module-accounting-multi-entity-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-multi-entity-livewire",
+      "package": "liberusoftware/module-accounting-multi-entity-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-opening-balances-filament",
+      "package": "liberusoftware/module-accounting-opening-balances-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-opening-balances-livewire",
+      "package": "liberusoftware/module-accounting-opening-balances-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-operational-reports-filament",
+      "package": "liberusoftware/module-accounting-operational-reports-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-operational-reports-livewire",
+      "package": "liberusoftware/module-accounting-operational-reports-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-payment-reconciliation-filament",
+      "package": "liberusoftware/module-accounting-payment-reconciliation-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-payment-reconciliation-livewire",
+      "package": "liberusoftware/module-accounting-payment-reconciliation-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-payroll-integration-filament",
+      "package": "liberusoftware/module-accounting-payroll-integration-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-payroll-integration-livewire",
+      "package": "liberusoftware/module-accounting-payroll-integration-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-payroll-journals-filament",
+      "package": "liberusoftware/module-accounting-payroll-journals-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-payroll-journals-livewire",
+      "package": "liberusoftware/module-accounting-payroll-journals-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-payroll-liabilities-filament",
+      "package": "liberusoftware/module-accounting-payroll-liabilities-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-payroll-liabilities-livewire",
+      "package": "liberusoftware/module-accounting-payroll-liabilities-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-payroll-payments-filament",
+      "package": "liberusoftware/module-accounting-payroll-payments-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-payroll-payments-livewire",
+      "package": "liberusoftware/module-accounting-payroll-payments-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-periods-filament",
+      "package": "liberusoftware/module-accounting-periods-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-periods-livewire",
+      "package": "liberusoftware/module-accounting-periods-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-policies-filament",
+      "package": "liberusoftware/module-accounting-policies-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-policies-livewire",
+      "package": "liberusoftware/module-accounting-policies-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-product-and-service-items-filament",
+      "package": "liberusoftware/module-accounting-product-and-service-items-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-product-and-service-items-livewire",
+      "package": "liberusoftware/module-accounting-product-and-service-items-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-project-billing-filament",
+      "package": "liberusoftware/module-accounting-project-billing-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-project-billing-livewire",
+      "package": "liberusoftware/module-accounting-project-billing-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-project-costing-filament",
+      "package": "liberusoftware/module-accounting-project-costing-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-project-costing-livewire",
+      "package": "liberusoftware/module-accounting-project-costing-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-project-profitability-filament",
+      "package": "liberusoftware/module-accounting-project-profitability-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-project-profitability-livewire",
+      "package": "liberusoftware/module-accounting-project-profitability-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-projects-and-jobs-filament",
+      "package": "liberusoftware/module-accounting-projects-and-jobs-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-projects-and-jobs-livewire",
+      "package": "liberusoftware/module-accounting-projects-and-jobs-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-purchase-orders-filament",
+      "package": "liberusoftware/module-accounting-purchase-orders-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-purchase-orders-livewire",
+      "package": "liberusoftware/module-accounting-purchase-orders-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-purchase-requisitions-filament",
+      "package": "liberusoftware/module-accounting-purchase-requisitions-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-purchase-requisitions-livewire",
+      "package": "liberusoftware/module-accounting-purchase-requisitions-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-quickbooks-online-migration-filament",
+      "package": "liberusoftware/module-accounting-quickbooks-online-migration-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-quickbooks-online-migration-livewire",
+      "package": "liberusoftware/module-accounting-quickbooks-online-migration-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-receipt-management-filament",
+      "package": "liberusoftware/module-accounting-receipt-management-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-receipt-management-livewire",
+      "package": "liberusoftware/module-accounting-receipt-management-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-recurring-transactions-filament",
+      "package": "liberusoftware/module-accounting-recurring-transactions-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-recurring-transactions-livewire",
+      "package": "liberusoftware/module-accounting-recurring-transactions-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-regional-packs-filament",
+      "package": "liberusoftware/module-accounting-regional-packs-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-regional-packs-livewire",
+      "package": "liberusoftware/module-accounting-regional-packs-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-reimbursements-filament",
+      "package": "liberusoftware/module-accounting-reimbursements-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-reimbursements-livewire",
+      "package": "liberusoftware/module-accounting-reimbursements-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-revenue-recognition-filament",
+      "package": "liberusoftware/module-accounting-revenue-recognition-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-revenue-recognition-livewire",
+      "package": "liberusoftware/module-accounting-revenue-recognition-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-review-filament",
+      "package": "liberusoftware/module-accounting-review-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-review-livewire",
+      "package": "liberusoftware/module-accounting-review-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-sage-accounting-migration-filament",
+      "package": "liberusoftware/module-accounting-sage-accounting-migration-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-sage-accounting-migration-livewire",
+      "package": "liberusoftware/module-accounting-sage-accounting-migration-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-sales-invoicing-filament",
+      "package": "liberusoftware/module-accounting-sales-invoicing-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-sales-invoicing-livewire",
+      "package": "liberusoftware/module-accounting-sales-invoicing-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-sales-orders-filament",
+      "package": "liberusoftware/module-accounting-sales-orders-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-sales-orders-livewire",
+      "package": "liberusoftware/module-accounting-sales-orders-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-sales-tax-and-gst-filament",
+      "package": "liberusoftware/module-accounting-sales-tax-and-gst-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-sales-tax-and-gst-livewire",
+      "package": "liberusoftware/module-accounting-sales-tax-and-gst-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-spreadsheet-migration-filament",
+      "package": "liberusoftware/module-accounting-spreadsheet-migration-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-spreadsheet-migration-livewire",
+      "package": "liberusoftware/module-accounting-spreadsheet-migration-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-supplier-bills-filament",
+      "package": "liberusoftware/module-accounting-supplier-bills-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-supplier-bills-livewire",
+      "package": "liberusoftware/module-accounting-supplier-bills-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-supplier-portal-filament",
+      "package": "liberusoftware/module-accounting-supplier-portal-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-supplier-portal-livewire",
+      "package": "liberusoftware/module-accounting-supplier-portal-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-tax-core-filament",
+      "package": "liberusoftware/module-accounting-tax-core-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-tax-core-livewire",
+      "package": "liberusoftware/module-accounting-tax-core-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-tax-returns-filament",
+      "package": "liberusoftware/module-accounting-tax-returns-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-tax-returns-livewire",
+      "package": "liberusoftware/module-accounting-tax-returns-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-three-way-matching-filament",
+      "package": "liberusoftware/module-accounting-three-way-matching-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-three-way-matching-livewire",
+      "package": "liberusoftware/module-accounting-three-way-matching-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-time-tracking-filament",
+      "package": "liberusoftware/module-accounting-time-tracking-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-time-tracking-livewire",
+      "package": "liberusoftware/module-accounting-time-tracking-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-transfers-filament",
+      "package": "liberusoftware/module-accounting-transfers-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-transfers-livewire",
+      "package": "liberusoftware/module-accounting-transfers-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-vat-filament",
+      "package": "liberusoftware/module-accounting-vat-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-vat-livewire",
+      "package": "liberusoftware/module-accounting-vat-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-withholding-tax-filament",
+      "package": "liberusoftware/module-accounting-withholding-tax-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-withholding-tax-livewire",
+      "package": "liberusoftware/module-accounting-withholding-tax-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-workforce-costing-filament",
+      "package": "liberusoftware/module-accounting-workforce-costing-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-workforce-costing-livewire",
+      "package": "liberusoftware/module-accounting-workforce-costing-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-workpapers-filament",
+      "package": "liberusoftware/module-accounting-workpapers-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-workpapers-livewire",
+      "package": "liberusoftware/module-accounting-workpapers-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-xero-migration-filament",
+      "package": "liberusoftware/module-accounting-xero-migration-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-xero-migration-livewire",
+      "package": "liberusoftware/module-accounting-xero-migration-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-year-end-filament",
+      "package": "liberusoftware/module-accounting-year-end-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/accounting-year-end-livewire",
+      "package": "liberusoftware/module-accounting-year-end-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/identity-core-filament",
+      "package": "liberusoftware/identity-core-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/localization-core-livewire",
+      "package": "liberusoftware/localization-core-livewire",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/organizations-teams-filament",
+      "package": "liberusoftware/organizations-teams-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/roles-permissions-filament",
+      "package": "liberusoftware/roles-permissions-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/sessions-devices-filament",
+      "package": "liberusoftware/sessions-devices-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/settings-filament",
+      "package": "liberusoftware/settings-filament",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/theme-support",
+      "package": "liberusoftware/theme-support",
+      "reason": "presentation adapter or web host"
+    },
+    {
+      "path": "modules/theme-support-livewire",
+      "package": "liberusoftware/theme-support-livewire",
+      "reason": "presentation adapter or web host"
+    }
+  ],
+  "policy": "Domain and API modules only. Embedded panel adapters removed; tenancy uses explicit scoped TenantState rather than Filament tenant resolution. Local Composer path packages are authoritative. Pulse dashboard dependency and UI-specific views, routes, scaffolds, tests and hooks are excluded. Jetstream models and Socialstream OAuth contracts are retained without panels.",
+  "adaptations": [
+    {
+      "path": "modules/accounting-account-reconciliations/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-account-reconciliations/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-account-reconciliations-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-account-reconciliations-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accountant-workspace/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accountant-workspace/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accountant-workspace-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accountant-workspace-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accounts-payable/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accounts-payable/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accounts-payable-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accounts-payable-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accounts-receivable/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accounts-receivable/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accounts-receivable-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-accounts-receivable-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-anomaly-detection/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-anomaly-detection/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-anomaly-detection-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-anomaly-detection-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-asset-events/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-asset-events/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-asset-events-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-asset-events-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-audit-support/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-audit-support/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-audit-support-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-audit-support-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-automation-pack/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-automation-pack/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-automation-pack-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-automation-pack-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-accounts/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-accounts/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-accounts-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-accounts-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-feeds/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-feeds/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-feeds-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-feeds-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-reconciliation/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-reconciliation/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-reconciliation-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-reconciliation-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-rules/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-rules/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-rules-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bank-rules-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bill-payments/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bill-payments/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bill-payments-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-bill-payments-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-branch-and-location-accounting/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-branch-and-location-accounting/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-branch-and-location-accounting-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-branch-and-location-accounting-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-budgets/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-budgets/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-budgets-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-budgets-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-business-insights/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-business-insights/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-business-insights-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-business-insights-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-carbon-accounting/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-carbon-accounting/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-carbon-accounting-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-carbon-accounting-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-coding/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-coding/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-coding-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-coding-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-collection-assistant/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-collection-assistant/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-collection-assistant-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-collection-assistant-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-flow-forecasting/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-flow-forecasting/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-flow-forecasting-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-flow-forecasting-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-position/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-position/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-position-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-cash-position-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-chart-of-accounts/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-chart-of-accounts/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-chart-of-accounts-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-chart-of-accounts-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-client-collaboration/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-client-collaboration/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-client-collaboration-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-client-collaboration-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-close-management/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-close-management/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-close-management-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-close-management-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-coding-suggestions/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-coding-suggestions/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-coding-suggestions-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-coding-suggestions-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-collections/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-collections/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-collections-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-collections-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-consolidation/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-consolidation/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-consolidation-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-consolidation-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-construction-tax/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-construction-tax/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-construction-tax-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-construction-tax-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-contractor-compliance/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-contractor-compliance/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-contractor-compliance-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-contractor-compliance-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-contractor-reporting/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-contractor-reporting/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-contractor-reporting-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-contractor-reporting-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-copilot/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-copilot/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-copilot-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-copilot-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-core/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-core/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-core-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-corporate-cards/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-corporate-cards/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-corporate-cards-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-corporate-cards-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-credit-notes-and-adjustments/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-credit-notes-and-adjustments/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-credit-notes-and-adjustments-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-credit-notes-and-adjustments-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-custom-report-builder/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-custom-report-builder/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-custom-report-builder-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-custom-report-builder-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-customer-payments/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-customer-payments/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-customer-payments-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-customer-payments-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-customer-payments-api/src/Models/Customer.php",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-customer-portal/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-customer-portal/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-customer-portal-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-customer-portal-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-dashboards/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-dashboards/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-dashboards-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-dashboards-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-debt-and-loans/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-debt-and-loans/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-debt-and-loans-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-debt-and-loans-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-deposits-and-clearing/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-deposits-and-clearing/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-deposits-and-clearing-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-deposits-and-clearing-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-depreciation/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-depreciation/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-depreciation-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-depreciation-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-dimensions-and-tracking/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-dimensions-and-tracking/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-dimensions-and-tracking-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-dimensions-and-tracking-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-document-capture/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-document-capture/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-document-capture-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-document-capture-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-e-invoicing/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-e-invoicing/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-e-invoicing-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-e-invoicing-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-employee-expenses/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-employee-expenses/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-employee-expenses-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-employee-expenses-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-erp/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-erp/src/ErpServiceProvider.php",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-erp/.github/workflows/package-quality.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/accounting-erp/resources/views/bank-statements/reconciliation-result.blade.php",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/accounting-erp/resources/views/bank-statements/review-matches.blade.php",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/accounting-erp/resources/views/invoices/template.blade.php",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/accounting-erp/resources/views/payslips/template.blade.php",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/accounting-erp/resources/views/tax-forms/1099-misc.blade.php",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/accounting-erp/src/Models/Customer.php",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-erp/src/Models/User.php",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-erp/src/Models/Vendor.php",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-erp/src/Modules/ModuleServiceProvider.php",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-erp/src/Database/Seeders/RolesSeeder.php",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-estimates-and-quotes/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-estimates-and-quotes/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-estimates-and-quotes-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-estimates-and-quotes-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-financial-master-data/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-financial-master-data/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-financial-master-data-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-financial-master-data-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-financial-statements/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-financial-statements/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-financial-statements-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-financial-statements-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-fixed-assets/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-fixed-assets/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-fixed-assets-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-fixed-assets-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-forecasts/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-forecasts/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-forecasts-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-forecasts-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-general-ledger/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-general-ledger/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-general-ledger-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-general-ledger-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-goods-and-service-receipts/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-goods-and-service-receipts/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-goods-and-service-receipts-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-goods-and-service-receipts-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-intercompany/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-intercompany/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-intercompany-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-intercompany-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-inventory-accounting/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-inventory-accounting/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-inventory-accounting-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-inventory-accounting-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-job-estimates/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-job-estimates/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-job-estimates-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-job-estimates-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-journal-approvals/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-journal-approvals/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-journal-approvals-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-journal-approvals-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-kpi-and-goals/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-kpi-and-goals/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-kpi-and-goals-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-kpi-and-goals-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-leases/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-leases/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-leases-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-leases-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-management-reporting/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-management-reporting/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-management-reporting-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-management-reporting-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-matching-intelligence/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-matching-intelligence/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-matching-intelligence-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-matching-intelligence-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-migration-framework/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-migration-framework/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-migration-framework-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-migration-framework-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-mileage/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-mileage/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-mileage-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-mileage-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-multi-currency/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-multi-currency/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-multi-currency-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-multi-currency-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-multi-entity/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-multi-entity/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-multi-entity-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-multi-entity-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-opening-balances/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-opening-balances/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-opening-balances-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-opening-balances-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-operational-reports/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-operational-reports/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-operational-reports-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-operational-reports-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payment-reconciliation/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payment-reconciliation/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payment-reconciliation-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payment-reconciliation-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-integration/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-integration/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-integration-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-integration-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-journals/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-journals/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-journals-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-journals-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-liabilities/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-liabilities/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-liabilities-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-liabilities-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-payments/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-payments/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-payments-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-payroll-payments-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-periods/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-periods/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-periods-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-periods-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-plaid/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-plaid/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-policies/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-policies/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-policies-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-policies-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-product-and-service-items/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-product-and-service-items/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-product-and-service-items-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-product-and-service-items-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-billing/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-billing/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-billing-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-billing-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-costing/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-costing/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-costing-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-costing-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-profitability/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-profitability/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-profitability-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-project-profitability-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-projects-and-jobs/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-projects-and-jobs/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-projects-and-jobs-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-projects-and-jobs-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-purchase-orders/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-purchase-orders/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-purchase-orders-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-purchase-orders-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-purchase-requisitions/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-purchase-requisitions/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-purchase-requisitions-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-purchase-requisitions-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-quickbooks-online-migration/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-quickbooks-online-migration/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-quickbooks-online-migration-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-quickbooks-online-migration-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-receipt-management/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-receipt-management/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-receipt-management-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-receipt-management-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-recurring-transactions/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-recurring-transactions/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-recurring-transactions-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-recurring-transactions-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-regional-packs/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-regional-packs/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-regional-packs-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-regional-packs-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-reimbursements/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-reimbursements/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-reimbursements-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-reimbursements-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-revenue-recognition/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-revenue-recognition/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-revenue-recognition-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-revenue-recognition-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-review/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-review/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-review-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-review-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-revolut/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-revolut/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sage-accounting-migration/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sage-accounting-migration/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sage-accounting-migration-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sage-accounting-migration-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-invoicing/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-invoicing/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-invoicing-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-invoicing-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-orders/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-orders/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-orders-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-orders-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-tax-and-gst/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-tax-and-gst/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-tax-and-gst-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-sales-tax-and-gst-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-spreadsheet-migration/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-spreadsheet-migration/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-spreadsheet-migration-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-spreadsheet-migration-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-supplier-bills/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-supplier-bills/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-supplier-bills-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-supplier-bills-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-supplier-portal/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-supplier-portal/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-supplier-portal-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-supplier-portal-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-tax-core/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-tax-core/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-tax-core-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-tax-core-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-tax-returns/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-tax-returns/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-tax-returns-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-tax-returns-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-three-way-matching/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-three-way-matching/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-three-way-matching-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-three-way-matching-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-time-tracking/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-time-tracking/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-time-tracking-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-time-tracking-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-transfers/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-transfers/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-transfers-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-transfers-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-vat/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-vat/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-vat-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-vat-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-wise/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-wise/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-withholding-tax/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-withholding-tax/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-withholding-tax-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-withholding-tax-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-workforce-costing/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-workforce-costing/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-workforce-costing-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-workforce-costing-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-workpapers/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-workpapers/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-workpapers-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-workpapers-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-xero-migration/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-xero-migration/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-xero-migration-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-xero-migration-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-year-end/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-year-end/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-year-end-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/accounting-year-end-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/activity-comments/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/activity-comments/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/activity-comments/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/activity-comments/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/analytics-core/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/analytics-core/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/analytics-core/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/analytics-core/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/analytics-core/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/analytics-google/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/analytics-google/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/analytics-google/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/analytics-google/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/analytics-google/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/analytics-meta/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/analytics-meta/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/analytics-meta/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/analytics-meta/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/analytics-meta/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/api-access/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/api-access/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/api-access/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/api-access/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/api-access/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/application/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/application/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/application/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/application/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/application/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/audit/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/audit/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/audit/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/audit/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/audit/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/currency-context/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/currency-context/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/currency-context/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/currency-context/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/currency-context/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/developer-experience/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/developer-experience/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/developer-experience/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/developer-experience/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/developer-experience/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/feature-flags/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/feature-flags/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/feature-flags/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/feature-flags/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/feature-flags/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/files-media/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/files-media/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/files-media/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/files-media/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/files-media/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/identity-core/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/identity-core/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/identity-core/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/identity-core/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/identity-core/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/identity-socialstream/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/identity-socialstream/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/identity-socialstream/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/identity-socialstream/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/identity-socialstream/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/identity-socialstream/src/Providers/SocialstreamServiceProvider.php",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/import-export/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/import-export/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/import-export/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/import-export/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/import-export/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/integrations/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/integrations/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/integrations/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/integrations/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/integrations/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/jetstream-bridge/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/jetstream-bridge/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/jetstream-bridge/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/jetstream-bridge/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/jetstream-bridge/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/liberu-business-workflow-reconciliation/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/liberu-business-workflow-reconciliation/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/liberu-executive-insights/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/liberu-executive-insights/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/liberu-platform-orchestration/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/liberu-platform-orchestration/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/localization-core/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/localization-core/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/localization-core/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/localization-core/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/localization-core/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/localization-mymemory/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/localization-mymemory/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/localization-mymemory/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/localization-mymemory/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/localization-mymemory/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/notifications/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/notifications/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/notifications/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/notifications/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/notifications/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/observability/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/observability/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/observability/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/observability/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/observability/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/observability/database/migrations/2026_06_29_124052_create_pulse_tables.php",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/organizations-teams/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/organizations-teams/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/organizations-teams/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/organizations-teams/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/organizations-teams/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/profiles/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/profiles/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/profiles/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/profiles/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/profiles/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/roles-permissions/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/roles-permissions/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/roles-permissions/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/roles-permissions/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/roles-permissions/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/scheduler-queues/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/scheduler-queues/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/scheduler-queues/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/scheduler-queues/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/scheduler-queues/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/search/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/search/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/search/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/search/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/search-api/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/search-api/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/search-api/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/search-api/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/search-api/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/sessions-devices/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/sessions-devices/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/sessions-devices/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/sessions-devices/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/sessions-devices/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/settings/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/settings/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/settings/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/settings/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/settings/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/tenancy/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/tenancy/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/tenancy/src/TenantContext.php",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/tenancy/src/Listeners/SwitchTeam.php",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/two-factor-authentication/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/two-factor-authentication/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/two-factor-authentication/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/two-factor-authentication/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/two-factor-authentication/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/users-roles/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/users-roles/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/users-roles/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/users-roles/.github/workflows/tests.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/webhooks/composer.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/webhooks/module.json",
+      "change": "adapted"
+    },
+    {
+      "path": "modules/webhooks/.github/workflows/compatibility.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/webhooks/.github/workflows/install.yml",
+      "change": "omitted"
+    },
+    {
+      "path": "modules/webhooks/.github/workflows/tests.yml",
+      "change": "omitted"
+    }
+  ]
+}
